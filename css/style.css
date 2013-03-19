@@ -1,0 +1,105 @@
+body{
+	margin: 0 auto;
+	width:1024px;
+}
+.webbody{
+
+}
+
+.header{
+	height: 200px;
+	background-image: url('../images/cab.jpg');
+	background-repeat: no-repeat;
+}
+.footer{
+	margin: 10px;
+	height: 20px;
+	text-align: center;
+	color: rgb(146, 88, 11);
+}
+
+.login-type{
+	background-color: rgb(182, 187, 191);
+	border-radius: 12px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+.login-type ul li{
+	margin: 10px;
+	list-style: none;
+}
+
+.login-type ul li a{
+	text-decoration: none;
+	color: rgb(122, 34, 34);
+	font-weight: bold;
+}
+.form-login{
+		/*border: 2px;*/
+	border-radius: 12px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-right: 300px;
+	margin-left: 300px;
+	background-color: rgb(182, 187, 191);
+}
+form ul li{
+	color: rgb(122, 34, 34);
+	margin: 10px;
+	list-style: none;
+}
+form ul li label{
+	color: rgb(122, 34, 34);
+	text-align: right;
+}
+form ul li a{
+	color: rgb(119, 0, 0);
+	text-decoration: none;
+	font-weight: bold;
+}
+form input:[type='text']{
+	line-height: 10px;
+}
+form button{
+	margin: 10px;
+	background-color: rgb(122, 34, 34);
+	color: rgb(255, 255, 255);
+}
+
+.menu {
+	background-color: rgb(119, 0, 0);
+	height:50px;
+}
+.menu ul{
+	height: 40px;
+	margin-left: 10px;
+    padding: 0;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+
+.menu li:after {
+	color: rgb(255, 255, 255);
+	content: " | ";
+}
+
+.menu li:last-child:after {
+content: none;
+}
+
+.menu ul li a{
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-decoration: none;
+}
+#operation{
+	/*height: 40px;*/
+	/*border: 2px solid;*/
+}
+
