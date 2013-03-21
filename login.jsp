@@ -18,6 +18,14 @@
 		<li>
 			Login as Admin <blink><a href="admin_login.jsp">Click Here.</a></blink>
 		</li>
+		<li>
+			<% String cat=(String)request.getAttribute("message");
+			if(cat!=null)
+			{ %>
+				<label><%=cat%> </label>
+			<%}
+			%>
+		</li>
 	</ul>
 </form>
 

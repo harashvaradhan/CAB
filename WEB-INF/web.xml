@@ -62,4 +62,16 @@
         <url-pattern>/AddUserServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>EditUserServlet</servlet-name>
+        <servlet-class>EditUserServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <http-method>GET</http-method>
+        <servlet-name>EditUserServlet</servlet-name>
+        <url-pattern>/EditUserServlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>

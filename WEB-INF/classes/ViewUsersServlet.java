@@ -15,8 +15,9 @@ public class ViewUsersServlet extends HttpServlet {
 		Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "cab", "cab");
 		Statement st=connection.createStatement();
 
-		ResultSet rs=st.executeQuery("Select * from tadmin");
-		out.println("<table border='1'>");
+		ResultSet rs=st.executeQuery("SELECT * FROM tadmin");
+		out.println("<table border='1' class='table'>");
+		out.println("<th>ID</th><th>First Name</th><th>Last Name</th>");
 		while(rs.next()){
 			String id=rs.getString("t_id");
 			String fname=rs.getString("t_fname");

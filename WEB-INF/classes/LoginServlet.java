@@ -5,38 +5,36 @@ import java.util.*;
 import java.sql.*;
 
 public class LoginServlet extends HttpServlet {
-    public void doPost(HttpServletRequest request,HttpServletResponse response)throws ServletException, IOException {
-        String name = request.getParameter("username");
-        String pass = request.getParameter("password");
-        PrintWriter out = response.getWriter();
-        // out.print("Records are\n");
+    public void doPost(HttpServletRequest req,HttpServletResponse res)throws ServletException, IOException {
+        String username = req.getParameter("username");
+        String pass = req.getParameter("password");
+        String message = null;
+        PrintWriter out = res.getWriter();
         try{
             Class.forName("oracle.jdbc.driver.OracleDriver");
             Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "cab", "cab");
             Statement st=connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
                                       ResultSet.CONCUR_UPDATABLE);
-            // out.println("Follows\n");
-            String query = "SELECT * FROM tadmin WHERE t_id='"+name+"' AND password='"+pass+"'";
-            // out.println(query);
+            String query = "SELECT * FROM tadmin WHERE t_id='"+username+"' AND password='"+pass+"'";
             ResultSet rs = st.executeQuery(query);
             int rowCount = 0;
             while ( rs.next() )
             {
-                // Process the row.
-                rowCount++;
+               rowCount++;
             }
-
-            // out.println("There were " + rowCount + " records.");
-            /*rs.last();
-            out.println(rs.getRow());*/
             if(rowCount==1){
                 rs.first();
-                name=rs.getString("t_id");
-                pass=rs.getString("password");
-                // out.println("<tr><td>"+name+"</td><td>"+pass+"</td></tr>");
-                out.println("Success\n");
-            } else{
-                out.println("Invalid Username/Passoword\n");
+                String t_id=rs.getString("t_id");
+                String fname=rs.getString("t_fname");
+                String lname=rs.getString("t_lname");
+                String password=rs.getString("password");
+                message = "Welcome "+fname+" "+lname+" thanks for login...";
+                req.setAttribute("message", message);
+                req.getRequestDispatcher("/welcome.jsp").forward(req, res);
+                } else {
+                    message = "You are not the valid user...";
+                    req.setAttribute("message", message);
+                    req.getRequestDispatcher("/login.jsp").forward(req, res);
             }
             rs.close();
             st.close();
