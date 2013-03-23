@@ -30,7 +30,9 @@ public class LoginServlet extends HttpServlet {
                 String password=rs.getString("password");
                 message = "Welcome "+fname+" "+lname+" thanks for login...";
                 req.setAttribute("message", message);
-                req.getRequestDispatcher("/welcome.jsp").forward(req, res);
+                req.getRequestDispatcher("/welcome_tadmin.jsp#viewemp").forward(req, res);
+              // String url = res.encodeRedirectURL("welcome_tadmin.jsp#viewemp");
+                //res.sendRedirect(url);
                 } else {
                     message = "You are not the valid user...";
                     req.setAttribute("message", message);

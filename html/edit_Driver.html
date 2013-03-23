@@ -1,0 +1,35 @@
+<label>Driver Id</label>
+<input type='text' name='driver_id' class='d_id'>
+<button name='btnFind' id='edit_find'>Find</button>
+<div class='record'>
+	<form  name='edit-driver-form'  method='POST' action='AddDriverServlet'>
+		<table>
+			<tr>
+				<td><label>First Name</label></td>
+				<td><input type='text' name='d_fname' class='d_fname' disabled></td>
+			</tr>
+			<tr>
+				<td><label>Last Name</label></td>
+				<td><input type='text' name='d_lname' class='d_lname' disabled></td>
+			</tr>
+			<tr>
+				<td><label>Driver ID</label></td>
+				<td><input type='text' name='d_id' class='d_id' disabled></td>
+			</tr>
+			<tr>
+				<td><label>Address</label></td>
+				<td><input type='text' name='address' class='address'></td>
+			</tr>
+			<tr>
+				<td><label>Mobile</label></td>
+				<td><input type='text' name='mobile' class='mobile'></td>
+			</tr>
+			<tr>
+			<tr>
+				<td><button name='btnSave' type='submit'>Save</button></td>
+				<td><button type='reset'>Reset</button></td>
+			</tr>
+		</table>
+	</form>
+</div>
+<div class='error'>Driver not found.</div>

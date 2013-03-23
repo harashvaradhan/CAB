@@ -86,4 +86,75 @@
         <url-pattern>/RemoveUserServlet</url-pattern>
     </servlet-mapping>
 
+        <servlet>
+        <servlet-name>ViewEmpServlet</servlet-name>
+        <servlet-class>ViewEmpServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <http-method>GET</http-method>
+        <servlet-name>ViewEmpServlet</servlet-name>
+        <url-pattern>/ViewEmpServlet</url-pattern>
+    </servlet-mapping>
+
+        <servlet>
+        <servlet-name>AddEmpServlet</servlet-name>
+        <servlet-class>AddEmpServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <http-method>POST</http-method>
+        <servlet-name>AddEmpServlet</servlet-name>
+        <url-pattern>/AddEmpServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditEmpServlet</servlet-name>
+        <servlet-class>EditEmpServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <http-method>POST</http-method>
+        <servlet-name>EditEmpServlet</servlet-name>
+        <url-pattern>/EditEmpServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewDriverServlet</servlet-name>
+        <servlet-class>ViewDriverServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <http-method>GET</http-method>
+        <servlet-name>ViewDriverServlet</servlet-name>
+        <url-pattern>/ViewDriverServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddDriverServlet</servlet-name>
+        <servlet-class>AddDriverServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <http-method>POST</http-method>
+        <servlet-name>AddDriverServlet</servlet-name>
+        <url-pattern>/AddDriverServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EditDriverServlet</servlet-name>
+        <servlet-class>EditDriverServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <http-method>GET</http-method>
+        <servlet-name>EditDriverServlet</servlet-name>
+        <url-pattern>/EditDriverServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

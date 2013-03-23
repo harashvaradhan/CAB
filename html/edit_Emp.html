@@ -1,0 +1,50 @@
+<label>Employee Id</label>
+<input type='text' name='emp_id' class='emp_id'>
+<button name='btnFind' id='edit_find'>Find</button>
+<div class='record'>
+    <form  name='add-emp-form'  method='POST' action='AddEmpServlet'>
+    <table>
+        <tr>
+            <td><label>First Name</label></td>
+            <td><input type='text' name='e_fname' class='e_fname' disabled></td>
+        </tr>
+        <tr>
+            <td><label>Last Name</label></td>
+            <td><input type='text' name='e_lname' class='e_lname' disabled></td>
+        </tr>
+        <tr>
+            <td><label>Employee ID</label></td>
+            <td><input type='text' name='e_id' class='e_id' disabled></td>
+        </tr>
+        <tr>
+            <td><label>Email-ID</label></td>
+            <td><input type='text' name='email_id' class='email_id' disabled></td>
+        </tr>
+        <tr>
+            <td><label>Address</label></td>
+            <td><input type='text' name='address' class='address' ></td>
+        </tr>
+        <tr>
+            <td><label>Mobile</label></td>
+            <td><input type='text' name='mobile' class='mobile' ></td>
+        </tr>
+        <tr>
+            <td><label>Location</label></td>
+            <td><input type='text' name='locality' class='locality' disabled></td>
+        </tr>
+        <tr>
+            <td><label>Unit</label></td>
+            <td><input type='text' name='unit' class='unit' disabled></td>
+        </tr>
+        <tr>
+            <td><label>Gender</label></td>
+            <td><input type='text' name='gender' class='gender' disabled></td>
+        </tr>
+        <tr>
+            <td><button type='submit' class='btnSave' name='btnSave'>Save</button></td>
+            <td><button type='reset' class='btnCancel' name='btnCancel'>Discard changes</button></td>
+        </tr>
+    </table>
+</form>
+</div>
+<div class='error'>Employee not found.</div>
