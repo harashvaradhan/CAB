@@ -4,16 +4,56 @@
 		"selected_items":
 		[
 			[
+				"red",
+				"ready	$(document).ready"
+			],
+			[
+				"pr",
+				"print(long)	void"
+			],
+			[
+				"jq",
+				"jQuery.ajax	jQuery.ajax"
+			],
+			[
+				"la",
+				"lname"
+			],
+			[
+				"js",
+				"jQuery.parseJSON	jQuery.parseJSON"
+			],
+			[
+				"json",
+				"jQuery.getJSON	jQuery.getJSON"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
 				"nu",
-				"numRowsChanged"
+				"null"
+			],
+			[
+				"co",
+				"complete"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"p",
+				"pu	public"
 			],
 			[
 				"pa",
 				"password"
-			],
-			[
-				"lo",
-				"load"
 			],
 			[
 				"marg",
@@ -66,14 +106,6 @@
 			[
 				"ro",
 				"rowCount"
-			],
-			[
-				"pr",
-				"println()	void"
-			],
-			[
-				"p",
-				"p	print"
 			],
 			[
 				"di",
@@ -136,10 +168,6 @@
 				"background-color"
 			],
 			[
-				"co",
-				"color"
-			],
-			[
 				"u",
 				"ul	Tag"
 			],
@@ -156,43 +184,44 @@
 	"buffers":
 	[
 		{
-			"file": "WEB-INF/classes/LoginServlet.java",
-			"settings":
-			{
-				"buffer_size": 1972,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "login.jsp",
-			"settings":
-			{
-				"buffer_size": 705,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "welcome.jsp",
-			"settings":
-			{
-				"buffer_size": 146,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "html/admin_navigation.html",
-			"settings":
-			{
-				"buffer_size": 390,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "css/style.css",
 			"settings":
 			{
-				"buffer_size": 7878,
+				"buffer_size": 7971,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/edit_Admin.html",
+			"settings":
+			{
+				"buffer_size": 601,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/jquery_functions.js",
+			"settings":
+			{
+				"buffer_size": 2376,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "WEB-INF/classes/EditUserServlet.java",
+			"settings":
+			{
+				"buffer_size": 1476,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "json.jsp",
+			"settings":
+			{
+				"buffer_size": 499,
+				"line_ending": "Windows",
+				"name": "<%"
 			}
 		},
 		{
@@ -200,6 +229,30 @@
 			"settings":
 			{
 				"buffer_size": 1035,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "WEB-INF/classes/RemoveUserServlet.java",
+			"settings":
+			{
+				"buffer_size": 1796,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "WEB-INF/web.xml",
+			"settings":
+			{
+				"buffer_size": 2465,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "WEB-INF/classes/AddUserServlet.java",
+			"settings":
+			{
+				"buffer_size": 2217,
 				"line_ending": "Windows"
 			}
 		}
@@ -328,30 +381,32 @@
 	},
 	"file_history":
 	[
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/admin_login.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/AddUserServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/ViewUsersServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/remove_Admin.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/LoginServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/admin_navigation.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/welcome.jsp",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/login.jsp",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/add_Admin.html",
 		"/K/wamp/www/web-page-thumbnail-2013-03-08/Webpagepthumbnail.class.php",
 		"/K/wamp/www/web-page-thumbnail-2013-03-08/example.php",
 		"/K/wamp/www/web-page-thumbnail-2013-03-08/config.php",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/q",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/welcome.jsp",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/login.jsp",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/web.xml",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/js/jquery_functions.js",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/css/style.css",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/header.jsp",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/AddUserServlet.java",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/ViewUsersServlet.java",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/admin_login.jsp",
 		"/K/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/K/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/admin_navigation.jsp",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/admin_login.java",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/add_transAdmin.html",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/HelloServlet.java",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/index.jsp",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/js/validation.js",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/js/jquery-1.9.1.js",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/LoginServlet.java",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/conf/tomcat-users.xml",
 		"/K/Documents and Settings/Administrator/Desktop/CAB/WEB-INF/web.xml",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/conf/server.xml",
@@ -412,6 +467,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\");",
+			"out.print(\"",
+			"/*out.print(\"",
+			"'",
+			";",
+			"Add",
+			"ponse",
 			"response",
 			"request",
 			"t_id",
@@ -469,104 +531,51 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "WEB-INF/classes/LoginServlet.java",
+					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 1972,
+						"buffer_size": 7971,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1863,
-								1863
+								7501,
+								7501
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"tab_size": 4,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 71.0,
-						"translation.y": 270.0,
+						"translation.x": 0.0,
+						"translation.y": 6469.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "login.jsp",
+					"file": "html/edit_Admin.html",
 					"settings":
 					{
-						"buffer_size": 705,
+						"buffer_size": 601,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								59,
-								59
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java Server Pages (JSP).tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "welcome.jsp",
-					"settings":
-					{
-						"buffer_size": 146,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								58,
-								58
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java Server Pages (JSP).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "html/admin_navigation.html",
-					"settings":
-					{
-						"buffer_size": 390,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								389,
-								390
+								7,
+								7
 							]
 						],
 						"settings":
@@ -581,25 +590,81 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "css/style.css",
+					"buffer": 2,
+					"file": "js/jquery_functions.js",
 					"settings":
 					{
-						"buffer_size": 7878,
+						"buffer_size": 2376,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2,
-								2
+								612,
+								612
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "WEB-INF/classes/EditUserServlet.java",
+					"settings":
+					{
+						"buffer_size": 1476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1469,
+								1469
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 873.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "json.jsp",
+					"settings":
+					{
+						"buffer_size": 499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<%",
+							"syntax": "Packages/Java/Java Server Pages (JSP).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -619,15 +684,108 @@
 						"selection":
 						[
 							[
-								700,
-								700
+								626,
+								626
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Java/Java.tmLanguage"
 						},
-						"translation.x": 24.0,
+						"translation.x": 0.0,
+						"translation.y": 60.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "WEB-INF/classes/RemoveUserServlet.java",
+					"settings":
+					{
+						"buffer_size": 1796,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								535,
+								535
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "WEB-INF/web.xml",
+					"settings":
+					{
+						"buffer_size": 2465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2160,
+								2160
+							],
+							[
+								2216,
+								2216
+							],
+							[
+								2350,
+								2350
+							],
+							[
+								2405,
+								2405
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1353.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "WEB-INF/classes/AddUserServlet.java",
+					"settings":
+					{
+						"buffer_size": 2217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},

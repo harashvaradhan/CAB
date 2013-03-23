@@ -30,3 +30,21 @@ Software Foundation\Tomcat 6.0\lib\servlet-api.jar" AddUserServlet.java
         }
 
         request.getRequestDispatcher("/WEB-INF/hello.jsp").forward(request, response);
+
+
+        <label>User Id</label>adasdsadsadasd
+<input type='text' name='username' class='username'>
+<button name='btnAdd' id='edit_find'>Find</button>
+<!-- <div class='record'>
+    <form name='reset-password'>
+        <label>User Id </label>
+            <input type='text' class='username' name='username' disabled><br>
+        <label>First Name </label>
+            <input type='text' class='fname' name='fname' disabled><br>
+        <label>Last Name </label>
+            <input type='text' class='lname' name='lname' disabled><br>
+        <label>New Password </label>
+            <input type='text' class='password' name='password'><br>
+        <input type='submit' class='btnSubmit' name='btnSubmit'> <input type='reset' class='btnCancel' name='btnCancel'>
+    </form>
+</div> -->

@@ -2,4 +2,28 @@
 <input type='text' name='username' class='username'>
 <button name='btnAdd' id='edit_find'>Find</button>
 <div class='record'>
+    <form name='reset-password' method='post' action='./ChangeUserPassword'>
+        <table>
+            <tr>
+                <td><input type='hidden' class='id' name='username'></td>
+            </tr>
+            <tr>
+                <td><label>First Name </label></td>
+                <td><input type='text' class='fname' name='fname' disabled></td>
+            </tr>
+            <tr>
+                <td><label>Last Name </label></td>
+                <td><input type='text' class='lname' name='lname' disabled></td>
+            </tr>
+            <tr>
+                <td><label>New Password </label></td>
+                <td><input type='text' class='password' name='password'></td>
+            </tr>
+            <tr>
+                <td><button type='submit' class='btnSave' name='btnSave'>Save</button></td>
+                <td><button type='reset' class='btnCancel' name='btnCancel'>Discard changes</button></td>
+            </tr>
+        </table>
+    </form>
 </div>
+<div class='error'>User not found.</div>

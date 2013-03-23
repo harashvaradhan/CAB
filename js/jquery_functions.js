@@ -13,44 +13,87 @@ $(document).ready(function () {
 		if ($(this).attr('href')=='#modify') {
 			console.log('modify');
 			$('#operation').load('./html/edit_Admin.html',function () {
+					$('.record').hide();
+					$('.error').hide();
 				$('#edit_find').click(function () {
+					$('.record').hide();
+					$('.error').hide();
 					var username = $('.username').val();
 					console.log(username);
-					jQuery.get('EditUserServlet', {username: username}, function(data, textStatus, xhr) {
-					  console.log(data+textStatus+xhr);
-					});
-/*
 					jQuery.ajax({
-					  url: 'EditUserServlet',
+					  url: './EditUserServlet',
 					  type: 'GET',
-					  data: {username: username},
+					  data: {username : username},
 					  complete: function(xhr, textStatus) {
 					    //called when complete
-					    console.log('complete');
+					    // console.log('complete');
 					  },
 					  success: function(data, textStatus, xhr) {
 					    //called when successful
-					    console.log(data);
+					    // if (jQuery.type(data)) {};
+						    var object = jQuery.parseJSON(data);
+						    // console.log(object.username+','+object.fname+','+object.lname);
+						    if (object.username ==="null") {
+							    $('.error').show();
+							} else {
+								$('.record').show();
+							    $('.id').val(object.username);
+							    $('.fname').val(object.fname);
+							    $('.lname').val(object.lname);
+							}
 					  },
 					  error: function(xhr, textStatus, errorThrown) {
 					    //called when there is an error
+					    console.log('error'+errorThrown);
 					  }
-					});*/
+					});
+
 				});
 			});
 		};
 		if ($(this).attr('href')=='#remove') {
+			console.log('modify');
+			$('#operation').load('./html/remove_Admin.html',function () {
+				$('.record').hide();
+				$('#remove_find').click(function () {
+					var username = $('.username').val();
+					console.log(username);
+					jQuery.ajax({
+					  url: './RemoveUserServlet',
+					  type: 'GET',
+					  data: {username : username},
+					  complete: function(xhr, textStatus) {
+					    //called when complete
+					    // console.log('complete');
+					  },
+					  success: function(data, textStatus, xhr) {
+					    //called when successful
+					    // if (jQuery.type(data)) {};
+					    console.log(jQuery.type(data));
+					    var object = jQuery.parseJSON(data);
+					    $('.record').show();
+					    $('.id').val(object.username);
+					    $('.fname').val(object.fname);
+					    $('.lname').val(object.lname);
+					    console.log(object.username+','+object.fname+','+object.lname);
+					  },
+					  error: function(xhr, textStatus, errorThrown) {
+					    //called when there is an error
+					    console.log('error'+errorThrown);
+					  }
+					});
+
+				});
+			});
+		};
+/*		if ($(this).attr('href')=='#remove') {
 			console.log('remove ');
 			$('#operation').load('./html/remove_Admin.html',function () {
 				$('#remove_find').click(function () {
 					var username = $('.username').val();
 					console.log(username);
-					jQuery.get('../EditUserServlet', {username: username}, function(data, textStatus, xhr) {
-					  console.log("Harsh");
-					});
-
-/*					jQuery.ajax({
-					  url: '../EditUserServlet',
+					jQuery.ajax({
+					  url: './RemoveUserServlet',
 					  type: 'GET',
 					  data: {username: username},
 					  complete: function(xhr, textStatus) {
@@ -63,11 +106,12 @@ $(document).ready(function () {
 					  },
 					  error: function(xhr, textStatus, errorThrown) {
 					    //called when there is an error
+  					    console.log('error'+errorThrown);
 					  }
-					});*/
+					});
 				});
 			});
-		};
+		};*/
 		if ($(this).attr('href')=='#backup') {
 			console.log('backup');
 		};

@@ -74,4 +74,16 @@
         <url-pattern>/EditUserServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>RemoveUserServlet</servlet-name>
+        <servlet-class>RemoveUserServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <http-method>GET</http-method>
+        <servlet-name>RemoveUserServlet</servlet-name>
+        <url-pattern>/RemoveUserServlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>
