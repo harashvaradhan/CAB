@@ -2,7 +2,7 @@
 <input type='text' name='driver_id' class='d_id'>
 <button name='btnFind' id='edit_find'>Find</button>
 <div class='record'>
-	<form  name='edit-driver-form'  method='POST' action='EditDriverServlet'>
+	<form  name='remove-driver-form'  method='POST' action='RemoveDriverServlet'>
 		<table>
 			<tr>
 				<td><label>First Name</label></td>
@@ -18,16 +18,15 @@
 			</tr>
 			<tr>
 				<td><label>Address</label></td>
-				<td><input type='text' name='address' class='address'></td>
+				<td><input type='text' name='address' class='address' disabled></td>
 			</tr>
 			<tr>
 				<td><label>Mobile</label></td>
-				<td><input type='text' name='mobile' class='mobile'></td>
+				<td><input type='text' name='mobile' class='mobile' disabled></td>
 			</tr>
 			<tr>
 			<tr>
-				<td><button name='btnSave' type='submit'>Save</button></td>
-				<td><button type='reset'>Discard Changes</button></td>
+				<td><button name='btnRemove' type='submit'>Remove</button></td>
 			</tr>
 		</table>
 	</form>

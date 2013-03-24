@@ -4,12 +4,92 @@
 		"selected_items":
 		[
 			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ad",
+				"address"
+			],
+			[
+				"di",
+				"did"
+			],
+			[
+				"mo",
+				"mobile"
+			],
+			[
+				"a",
+				"addr"
+			],
+			[
+				"S",
+				"STATUS"
+			],
+			[
+				"C",
+				"C_ID"
+			],
+			[
+				"D",
+				"D_LNAME"
+			],
+			[
+				"me",
+				"menu_admin"
+			],
+			[
+				"re",
+				"record"
+			],
+			[
+				"ge",
+				"gen"
+			],
+			[
+				"add",
+				"addr"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"jso",
+				"jQuery.parseJSON	jQuery.parseJSON"
+			],
+			[
 				"l",
-				"log"
+				"lname"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"j",
+				"jQuery.ajax	jQuery.ajax"
 			],
 			[
 				"jqu",
-				"jQuery.type	jQuery.type"
+				"jQuery.post	jQuery.post"
+			],
+			[
+				"g",
+				"gen"
+			],
+			[
+				"un",
+				"unt"
+			],
+			[
+				"lo",
+				"loc"
+			],
+			[
+				"e_",
+				"E_ID"
 			],
 			[
 				"jq",
@@ -46,14 +126,6 @@
 			[
 				"nu",
 				"null"
-			],
-			[
-				"co",
-				"complete"
-			],
-			[
-				"lo",
-				"log"
 			],
 			[
 				"res",
@@ -104,10 +176,6 @@
 				"background-color"
 			],
 			[
-				"fon",
-				"font-weight"
-			],
-			[
 				"li",
 				"li	Tag"
 			],
@@ -118,10 +186,6 @@
 			[
 				"ro",
 				"rowCount"
-			],
-			[
-				"di",
-				"display"
 			],
 			[
 				"bor",
@@ -196,82 +260,58 @@
 	"buffers":
 	[
 		{
-			"file": "html/tadmin_navigation.html",
-			"settings":
-			{
-				"buffer_size": 688,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "html/admin_navigation.html",
-			"settings":
-			{
-				"buffer_size": 463,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "welcome.jsp",
-			"settings":
-			{
-				"buffer_size": 146,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "admin_login.jsp",
-			"settings":
-			{
-				"buffer_size": 481,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "login.jsp",
-			"settings":
-			{
-				"buffer_size": 705,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "WEB-INF/classes/LoginServlet.java",
-			"settings":
-			{
-				"buffer_size": 2109,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "welcome_tadmin.jsp",
-			"settings":
-			{
-				"buffer_size": 147,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "WEB-INF/classes/admin_login.java",
-			"settings":
-			{
-				"buffer_size": 2037,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "WEB-INF/classes/ViewEmpServlet.java",
-			"settings":
-			{
-				"buffer_size": 1422,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "js/jquery_functions.js",
 			"settings":
 			{
-				"buffer_size": 3763,
+				"buffer_size": 13211,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "WEB-INF/classes/EditDriverServlet.java",
+			"settings":
+			{
+				"buffer_size": 1701,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/tadmin_navigation.html",
+			"settings":
+			{
+				"buffer_size": 1149,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/add_Driver.html",
+			"settings":
+			{
+				"buffer_size": 718,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/edit_Driver.html",
+			"settings":
+			{
+				"buffer_size": 1049,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "WEB-INF/web.xml",
+			"settings":
+			{
+				"buffer_size": 4453,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 8680,
 				"line_ending": "Windows"
 			}
 		}
@@ -400,33 +440,44 @@
 	},
 	"file_history":
 	[
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/json.jsp",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/q",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/ViewUsersServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/edit_Admin.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/edit_Emp.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/remove_Admin.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/AddDriverServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/ViewDriverServlet.java",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/css/style.css",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/css/bootstrap.css",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/EditEmpServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/web.xml",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/remove_Emp.html",
+		"/K/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/K/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/admin_navigation.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/tadmin_navigation.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/AddEmpServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/add_Emp.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/AddUserServlet.java",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/js/jquery_functions.js",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/ViewEmpServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/ViewUsersServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/welcome_tadmin.jsp",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/welcome.jsp",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/admin_login.jsp",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/login.jsp",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/LoginServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/admin_login.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/q",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/json.jsp",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/css/bootstrap.css",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/ChangeUserPassword.java",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/Remove_Admin.html",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/edit_Admin.html",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/RemoveUserServlet.java",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/EditUserServlet.java",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/LoginServlet.java",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/AddUserServlet.java",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/web.xml",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/admin_login.java",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/remove_Admin.html",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/welcome.jsp",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/login.jsp",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/add_Admin.html",
 		"/K/wamp/www/web-page-thumbnail-2013-03-08/Webpagepthumbnail.class.php",
 		"/K/wamp/www/web-page-thumbnail-2013-03-08/example.php",
 		"/K/wamp/www/web-page-thumbnail-2013-03-08/config.php",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/header.jsp",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/admin_login.jsp",
 		"/K/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/K/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/admin_navigation.jsp",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/add_transAdmin.html",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/HelloServlet.java",
@@ -493,6 +544,51 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			");",
+			"'></td>",
+			"disabled></td>",
+			"AddDriverServlet",
+			"e",
+			"ViewDriverServlet",
+			"EditEmpServlet",
+			"'></td>",
+			"$('",
+			");",
+			"'></td>",
+			"></td>",
+			"name",
+			"AddEmpServlet",
+			" = ",
+			"getParameter",
+			"String ",
+			"username",
+			"add_Emp",
+			"<a class='",
+			"class",
+			"<ul>",
+			"#navbar",
+			">\n",
+			"<a h",
+			"<div>",
+			"addemp",
+			"Addemp",
+			"addemp",
+			"Addemp",
+			"addemp",
+			"Addemp",
+			"addemp",
+			"Addemp",
+			"addemp",
+			"Addemp",
+			"addemp",
+			"if (",
+			"<a h",
+			"</a>",
+			"<li>",
+			"<button",
+			"<label>",
+			"li",
+			"fname",
 			"admin",
 			"<button",
 			"<label>",
@@ -561,50 +657,79 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 6,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "html/tadmin_navigation.html",
+					"file": "js/jquery_functions.js",
 					"settings":
 					{
-						"buffer_size": 688,
+						"buffer_size": 13211,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								688,
-								688
+								7876,
+								7876
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 873.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "html/admin_navigation.html",
+					"file": "WEB-INF/classes/EditDriverServlet.java",
 					"settings":
 					{
-						"buffer_size": 463,
+						"buffer_size": 1701,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								529,
+								529
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 669.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "html/tadmin_navigation.html",
+					"settings":
+					{
+						"buffer_size": 1149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								972,
+								984
 							]
 						],
 						"settings":
@@ -613,43 +738,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "welcome.jsp",
-					"settings":
-					{
-						"buffer_size": 146,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								146,
-								146
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java Server Pages (JSP).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 240.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "admin_login.jsp",
+					"file": "html/add_Driver.html",
 					"settings":
 					{
-						"buffer_size": 481,
+						"buffer_size": 718,
 						"regions":
 						{
 						},
@@ -657,12 +756,12 @@
 						[
 							[
 								0,
-								0
+								718
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Java/Java Server Pages (JSP).tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -673,23 +772,23 @@
 				},
 				{
 					"buffer": 4,
-					"file": "login.jsp",
+					"file": "html/edit_Driver.html",
 					"settings":
 					{
-						"buffer_size": 705,
+						"buffer_size": 1049,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								67,
-								79
+								819,
+								825
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Java/Java Server Pages (JSP).tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
@@ -700,137 +799,56 @@
 				},
 				{
 					"buffer": 5,
-					"file": "WEB-INF/classes/LoginServlet.java",
+					"file": "WEB-INF/web.xml",
 					"settings":
 					{
-						"buffer_size": 2109,
+						"buffer_size": 4453,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2000,
-								2000
+								4293,
+								4296
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Java/Java.tmLanguage",
+							"syntax": "Packages/XML/XML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 2740.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "welcome_tadmin.jsp",
+					"file": "css/style.css",
 					"settings":
 					{
-						"buffer_size": 147,
+						"buffer_size": 8680,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								147,
-								147
+								8663,
+								8663
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Java/Java Server Pages (JSP).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "WEB-INF/classes/admin_login.java",
-					"settings":
-					{
-						"buffer_size": 2037,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								335,
-								335
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": true
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "WEB-INF/classes/ViewEmpServlet.java",
-					"settings":
-					{
-						"buffer_size": 1422,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								321,
-								321
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "js/jquery_functions.js",
-					"settings":
-					{
-						"buffer_size": 3763,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								62,
-								62
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 480.0,
+						"translation.y": 7910.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -894,10 +912,10 @@
 		],
 		"width": 380.0
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 143.0,
+	"side_bar_width": 146.0,
 	"status_bar_visible": true
 }

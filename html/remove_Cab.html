@@ -1,0 +1,26 @@
+<label>Cab Id</label>
+<input type='text' name='cab_id' class='cab_id'>
+<button name='btnFind' id='edit_find'>Find</button>
+<div class='record'>
+	<form  name='remove-cab-form'  method='POST' action='RemoveCabServlet'>
+		<table>
+			<tr>
+				<td><label>Cab Id</label></td>
+				<td>
+					<input type='hidden' name='cab_id' class='cab_id'><input type='text' name='cab_id' class='cab_id' disabled></td>
+			</tr>
+			<tr>
+				<td><label>Vehicle Number</label></td>
+				<td><input type='text' name='v_number' class='v_number' disabled></td>
+			</tr>
+			<tr>
+				<td><label>Status</label></td>
+				<td><input type='text' name='status' class='status' disabled></td>
+			</tr>
+			<tr>
+				<td><button name='btnRemove' type='submit'>Remove</button></td>
+			</tr>
+		</table>
+	</form>
+</div>
+<div class='error'>Cab not found.</div>

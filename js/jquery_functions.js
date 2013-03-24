@@ -89,7 +89,11 @@ $(document).ready(function () {
 		if ($(this).attr('href')=='#remove') {
 			console.log('remove ');
 		/*	$('#operation').load('./html/remove_Admin.html',function () {
+				$('.record').hide();
+				$('.error').hide();
 				$('#remove_find').click(function () {
+					$('.record').hide();
+					$('.error').hide();
 					var username = $('.username').val();
 					console.log(username);
 					jQuery.ajax({
@@ -134,6 +138,8 @@ $(document).ready(function () {
 				$('.record').hide();
 				$('.error').hide();
 				$('#edit_find').click(function () {
+					$('.record').hide();
+					$('.error').hide();
 					var emp_id = $('.emp_id').val();
 					console.log(emp_id)
 					jQuery.ajax({
@@ -178,6 +184,8 @@ $(document).ready(function () {
 				$('.record').hide();
 				$('.error').hide();
 					$('#remove_find').click(function () {
+						$('.record').hide();
+						$('.error').hide();
 					var emp_id = $('.emp_id').val();
 					console.log(emp_id)
 					jQuery.ajax({
@@ -230,6 +238,8 @@ $(document).ready(function () {
 				$('.record').hide();
 				$('.error').hide();
 				$('#edit_find').click(function () {
+					$('.record').hide();
+					$('.error').hide();
 					var d_id = $('.d_id').val();
 					console.log(d_id)
 					jQuery.ajax({
@@ -268,147 +278,101 @@ $(document).ready(function () {
 		}
 		if ($(this).attr('href')=='#removedrv') {
 			console.log('');
-			$('#operation').load('./html/.html',function () {
+			$('#operation').load('./html/remove_Driver.html',function () {
 				$('.record').hide();
 				$('.error').hide();
 				$('#edit_find').click(function () {
-					var emp_id = $('.emp_id').val();
-					console.log(emp_id)
-					/*jQuery.ajax({
-					  url: './EditEmpServlet',
-					  type: 'POST',
-					  data: {param1: 'value1'},
+					var d_id = $('.d_id').val();
+					console.log(d_id)
+					jQuery.ajax({
+					  url: './EditDriverServlet',
+					  type: 'GET',
+					  data: {d_id: d_id},
 					  complete: function(xhr, textStatus) {
 					    //called when complete
 					    console.log('complete')
 					  },
 					  success: function(data, textStatus, xhr) {
 					    //called when successful
+					    console.log(data);
+					    // {"did":"null","fname":"null","lname":"null","addr":"null","mob":"null"} 
+					    object = jQuery.parseJSON(data);
+					    if (object.did === "null") {
+					    	$('.error').show();
+					    } else {
+							$('.record').show();
+					    	$('.d_fname').val(object.fname);
+					    	$('.d_lname').val(object.lname);
+					    	$('.d_id').val(object.did);
+					    	$('.address').val(object.addr);
+					    	$('.mobile').val(object.mob);
+					    	// $('.').val();
+					    }
 					    console.log('successful')
 					  },
 					  error: function(xhr, textStatus, errorThrown) {
 					    //called when there is an error
 					    console.log('error'+errorThrown)
 					  }
-					});//ajax end*/
+					});//ajax end
 				});
 			});
 		}
 		if ($(this).attr('href')=='#viewcab') {
-			console.log('');
-			$('#operation').load('./html/.html',function () {
-				$('.record').hide();
-				$('.error').hide();
-				$('#edit_find').click(function () {
-					var emp_id = $('.emp_id').val();
-					console.log(emp_id)
-					/*jQuery.ajax({
-					  url: './EditEmpServlet',
-					  type: 'POST',
-					  data: {param1: 'value1'},
-					  complete: function(xhr, textStatus) {
-					    //called when complete
-					    console.log('complete')
-					  },
-					  success: function(data, textStatus, xhr) {
-					    //called when successful
-					    console.log('successful')
-					  },
-					  error: function(xhr, textStatus, errorThrown) {
-					    //called when there is an error
-					    console.log('error'+errorThrown)
-					  }
-					});//ajax end*/
-				});
-			});
+			console.log('viewcab');
+			$('#operation').load('ViewCabServlet');
 		}
 		if ($(this).attr('href')=='#addcab') {
-			console.log('');
-			$('#operation').load('./html/.html',function () {
-				$('.record').hide();
-				$('.error').hide();
-				$('#edit_find').click(function () {
-					var emp_id = $('.emp_id').val();
-					console.log(emp_id)
-					/*jQuery.ajax({
-					  url: './EditEmpServlet',
-					  type: 'POST',
-					  data: {param1: 'value1'},
-					  complete: function(xhr, textStatus) {
-					    //called when complete
-					    console.log('complete')
-					  },
-					  success: function(data, textStatus, xhr) {
-					    //called when successful
-					    console.log('successful')
-					  },
-					  error: function(xhr, textStatus, errorThrown) {
-					    //called when there is an error
-					    console.log('error'+errorThrown)
-					  }
-					});//ajax end*/
-				});
-			});
+			console.log('addcab');
+			$('#operation').load('./html/add_Cab.html');
 		}
 		if ($(this).attr('href')=='#removecab') {
-			console.log('');
-			$('#operation').load('./html/.html',function () {
+			console.log('removecab');
+			$('#operation').load('./html/remove_Cab.html',function () {
 				$('.record').hide();
 				$('.error').hide();
 				$('#edit_find').click(function () {
-					var emp_id = $('.emp_id').val();
-					console.log(emp_id)
-					/*jQuery.ajax({
-					  url: './EditEmpServlet',
-					  type: 'POST',
-					  data: {param1: 'value1'},
+					$('.record').hide();
+					$('.error').hide();
+					var cab_id = $('.cab_id').val();
+					console.log(cab_id)
+					jQuery.ajax({
+					  url: 'EditCabServlet',
+					  type: 'GET',
+					  data: {cab_id: cab_id},
 					  complete: function(xhr, textStatus) {
 					    //called when complete
 					    console.log('complete')
 					  },
 					  success: function(data, textStatus, xhr) {
 					    //called when successful
+					    console.log(data);
+					    var object = jQuery.parseJSON(data);
+					    if (object.cab_id === "null") {
+					    	$('.error').show();
+					    } else{
+					    	$('.record').show();
+					    	$('.cab_id').val(object.cab_id);
+					    	$('.v_number').val(object.v_number);
+					    	$('.status').val(object.cab_status);
+					    }
 					    console.log('successful')
 					  },
 					  error: function(xhr, textStatus, errorThrown) {
 					    //called when there is an error
 					    console.log('error'+errorThrown)
 					  }
-					});//ajax end*/
+					});//ajax end
 				});
 			});
 		}
-		if ($(this).attr('href')=='#') {
-			console.log('');
-			$('#operation').load('./html/.html',function () {
-				$('.record').hide();
-				$('.error').hide();
-				$('#edit_find').click(function () {
-					var emp_id = $('.emp_id').val();
-					console.log(emp_id)
-					/*jQuery.ajax({
-					  url: './EditEmpServlet',
-					  type: 'POST',
-					  data: {param1: 'value1'},
-					  complete: function(xhr, textStatus) {
-					    //called when complete
-					    console.log('complete')
-					  },
-					  success: function(data, textStatus, xhr) {
-					    //called when successful
-					    console.log('successful')
-					  },
-					  error: function(xhr, textStatus, errorThrown) {
-					    //called when there is an error
-					    console.log('error'+errorThrown)
-					  }
-					});//ajax end*/
-				});
-			});
+		if ($(this).attr('href')=='#newroster') {
+			console.log('new roster');
+			$('#operation').load('./html/add_Roster.html');
 		}
-		if ($(this).attr('href')=='#') {
-			console.log('');
-			$('#operation').load('./html/.html',function () {
+		if ($(this).attr('href')=='#editroster') {
+			console.log('editroster');
+			$('#operation').load('./html/edit_Roster.html',function () {
 				$('.record').hide();
 				$('.error').hide();
 				$('#edit_find').click(function () {
