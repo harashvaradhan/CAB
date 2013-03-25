@@ -285,21 +285,27 @@ body{
 .webbody{
 
 }
-
+.welcome1{
+  color:rgb(254, 141, 2);
+  font-size: 20px;
+  font-weight: bold;
+}
 .header{
 	height: 200px;
-	background-image: url('../images/cab.jpg');
-	background-repeat: no-repeat;
+	background-image: url('../images/banner.png');
+	background-repeat: repeat-x;
 }
 .footer{
 	margin: 10px;
 	height: 20px;
 	text-align: center;
-	color: rgb(146, 88, 11);
+	/*color: rgb(146, 88, 11);*/
+  color: rgb(5, 99, 144);
 }
 
 .login-type{
-	background-color: rgb(182, 187, 191);
+  background-color: rgb(237, 248, 254);
+	/*background-color: rgb(182, 187, 191);*/
 	border-radius: 12px;
 	padding: 20px;
 	margin-top: 20px;
@@ -313,7 +319,8 @@ body{
 
 .login-type ul li a{
 	text-decoration: none;
-	color: rgb(122, 34, 34);
+	/*color: rgb(122, 34, 34);*/
+  color: rgb(5, 99, 144);
 	font-weight: bold;
 }
 .form-login{
@@ -323,19 +330,19 @@ body{
 	margin-top: 20px;
 	margin-right: 300px;
 	margin-left: 300px;
-	background-color: rgb(182, 187, 191);
+	background-color: rgb(237, 248, 254);
 }
 form ul li{
-	color: rgb(122, 34, 34);
+	color: rgb(5, 99, 144);
 	margin: 10px;
 	list-style: none;
 }
 form ul li label{
-	color: rgb(122, 34, 34);
+	color: rgb(5, 99, 144);
 	text-align: right;
 }
 form ul li a{
-	color: rgb(119, 0, 0);
+	color: rgb(5, 99, 144);
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -344,31 +351,32 @@ form input:[type='text']{
 }
 form button{
 	margin: 10px;
-	background-color: rgb(122, 34, 34);
+	background-color: rgb(0, 91, 141);
 	color: rgb(255, 255, 255);
 }
 
 button{
   margin: 10px;
-  background-color: rgb(122, 34, 34);
+  background-color: rgb(0, 91, 141);;
   color: rgb(255, 255, 255);
 }
 
 /**************styles for cmsadmin navigation******************************/
 .menu {
-	background-color: rgb(119, 0, 0);
+	/*background-color: rgb(119, 0, 0);*/
+  background-color: rgb(0, 91, 141);
 	height:50px;
 }
 .menu ul{
 	height: 40px;
-	margin-left: 10px;
-    padding: 0;
+	margin-left: 2px;
+  padding: 0;
 }
 .menu ul li{
 	list-style: none;
 	float: left;
 	margin-top: 15px;
-	margin-right: 10px;
+	margin-right: 5px;
 }
 
 .menu ul li a{
@@ -379,16 +387,30 @@ button{
 
 .menu li:after {
 	color: rgb(255, 255, 255);
-	content: " | ";
+	content: " |";
 }
 
 .menu li:last-child:after {
 content: none;
 }
-
+.menu ul li ul{
+    display: none;
+    /*background-color: rgb(119, 0, 0);*/
+    background-color: rgb(0, 91, 141);
+    /*opacity: 0.8;*/
+    position: absolute;
+/*    height:50px;*/
+}
+.menu li:hover > ul{
+    display: block;
+}
+.menu li:hover li {
+    float: none;
+}
 /**************styles for admin navigation******************************/
 .menu_admin {
-    background-color: rgb(119, 0, 0);
+    /*background-color: rgb(119, 0, 0);*/
+    background-color: rgb(0, 91, 141);
     height:50px;
 }
 .menu_admin ul li{
@@ -406,7 +428,8 @@ content: none;
 }
 .menu_admin ul li ul{
     display: none;
-    background-color: rgb(119, 0, 0);
+    /*background-color: rgb(119, 0, 0);*/
+    background-color: rgb(0, 91, 141);
     opacity: 0.8;
     position: absolute;
 /*    height:50px;*/
@@ -423,3 +446,7 @@ content: none;
 #operation{
 }
 
+label{
+  color: rgb(0, 91, 141);
+  font-weight: bolder;
+}

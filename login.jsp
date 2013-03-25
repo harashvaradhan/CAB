@@ -2,13 +2,13 @@
 
 <form class='form-login' action='LoginServlet' method='POST'>
 	<ul>
-		<li><h2>Login Here,</h2></li>
+		<li><h2>Trasport Admin Login</h2></li>
 		<li>
 			<label>Username</label>
 			<input type='text' name='username'>
 		</li>
 		<li>
-			<label>Password</label>
+			<label>Password&nbsp;</label>
 			<input type='password' name='password'>
 		</li>
 		<li>

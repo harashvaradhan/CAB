@@ -7,7 +7,7 @@
 	<script type="text/javascript" src='js/jquery_functions.js'></script>
 </head>
 <body>
-	<div class='webbody'>
+	<div class='webbody clearfix'>
 		<div class='header'>
 			<!-- <ul class='clearfix'>
 			    <li>Cab Management System</li>

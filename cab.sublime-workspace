@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"bol",
+				"bolder"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"cab",
+				"cab_id"
+			],
+			[
+				"st",
+				"status"
+			],
+			[
+				"ca",
+				"cab_id"
+			],
+			[
+				"v",
+				"v_number"
+			],
+			[
+				"Sa",
+				"STATUS"
+			],
+			[
 				"fon",
 				"font-size"
 			],
@@ -62,10 +94,6 @@
 			[
 				"l",
 				"lname"
-			],
-			[
-				"co",
-				"console"
 			],
 			[
 				"j",
@@ -168,10 +196,6 @@
 				"margin-top"
 			],
 			[
-				"font",
-				"font-size"
-			],
-			[
 				"ba",
 				"background-color"
 			],
@@ -250,68 +274,16 @@
 			[
 				"strmd",
 				"strmd51"
-			],
-			[
-				"st",
-				"str"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "js/jquery_functions.js",
+			"file": "WEB-INF/classes/ViewDriverServlet.java",
 			"settings":
 			{
-				"buffer_size": 13211,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "WEB-INF/classes/EditDriverServlet.java",
-			"settings":
-			{
-				"buffer_size": 1701,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "html/tadmin_navigation.html",
-			"settings":
-			{
-				"buffer_size": 1149,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "html/add_Driver.html",
-			"settings":
-			{
-				"buffer_size": 718,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "html/edit_Driver.html",
-			"settings":
-			{
-				"buffer_size": 1049,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "WEB-INF/web.xml",
-			"settings":
-			{
-				"buffer_size": 4453,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/style.css",
-			"settings":
-			{
-				"buffer_size": 8680,
+				"buffer_size": 1333,
 				"line_ending": "Windows"
 			}
 		}
@@ -440,29 +412,45 @@
 	},
 	"file_history":
 	[
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/edit_Admin.html",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/edit_Emp.html",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/remove_Admin.html",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/AddDriverServlet.java",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/ViewDriverServlet.java",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/css/style.css",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/EditEmpServlet.java",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/web.xml",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/remove_Emp.html",
-		"/K/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
-		"/K/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/User/Preferences.sublime-settings",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/admin_navigation.html",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/tadmin_navigation.html",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/AddEmpServlet.java",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/add_Emp.html",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/AddUserServlet.java",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/js/jquery_functions.js",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/ViewEmpServlet.java",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/ViewUsersServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/web.xml",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/RemoveDriverServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/remove_Driver.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/remove_Emp.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/remove_Admin.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/RemoveEmpServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/remove_Cab.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/RemoveCabServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/header.jsp",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/css/style.css",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/error_tadmin.jsp",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/welcome_tadmin.jsp",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/welcome.jsp",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/index.jsp",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/admin_login.jsp",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/login.jsp",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/add_Driver.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/add_Admin.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/admin_navigation.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/tadmin_navigation.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/EditDriverServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/EditCabServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/add_Cab.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/AddCabServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/ViewCabServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/add_Emp.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/edit_Driver.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/edit_Admin.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/edit_Emp.html",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/AddDriverServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/ViewDriverServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/EditEmpServlet.java",
+		"/K/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/K/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/AddEmpServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/AddUserServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/ViewEmpServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/ViewUsersServlet.java",
+		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/welcome.jsp",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/LoginServlet.java",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/admin_login.java",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/q",
@@ -472,16 +460,13 @@
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/Remove_Admin.html",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/RemoveUserServlet.java",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/EditUserServlet.java",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/html/add_Admin.html",
 		"/K/wamp/www/web-page-thumbnail-2013-03-08/Webpagepthumbnail.class.php",
 		"/K/wamp/www/web-page-thumbnail-2013-03-08/example.php",
 		"/K/wamp/www/web-page-thumbnail-2013-03-08/config.php",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/header.jsp",
 		"/K/Documents and Settings/Administrator/Application Data/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/admin_navigation.jsp",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/add_transAdmin.html",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/WEB-INF/classes/HelloServlet.java",
-		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/index.jsp",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/js/validation.js",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/webapps/CAB/js/jquery-1.9.1.js",
 		"/K/Program Files/Apache Software Foundation/Tomcat 6.0/conf/tomcat-users.xml",
@@ -544,6 +529,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"RemoveDriverServlet",
+			"EditCabServlet",
+			"<button",
+			"<input ",
+			"<label>",
+			"li",
+			"ul",
+			"<button ",
+			"<label>",
+			"li",
+			"ul",
+			"'></td>",
+			"Remove",
+			"AddCabServlet",
+			"View",
+			"EditDriverServlet",
 			");",
 			"'></td>",
 			"disabled></td>",
@@ -657,198 +658,31 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "js/jquery_functions.js",
+					"file": "WEB-INF/classes/ViewDriverServlet.java",
 					"settings":
 					{
-						"buffer_size": 13211,
+						"buffer_size": 1333,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7876,
-								7876
+								1055,
+								1055
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
+							"syntax": "Packages/Java/Java.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 873.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "WEB-INF/classes/EditDriverServlet.java",
-					"settings":
-					{
-						"buffer_size": 1701,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								529,
-								529
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Java/Java.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 669.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "html/tadmin_navigation.html",
-					"settings":
-					{
-						"buffer_size": 1149,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								972,
-								984
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 240.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "html/add_Driver.html",
-					"settings":
-					{
-						"buffer_size": 718,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								718
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "html/edit_Driver.html",
-					"settings":
-					{
-						"buffer_size": 1049,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								819,
-								825
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "WEB-INF/web.xml",
-					"settings":
-					{
-						"buffer_size": 4453,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4293,
-								4296
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2740.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "css/style.css",
-					"settings":
-					{
-						"buffer_size": 8680,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8663,
-								8663
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 7910.0,
+						"translation.x": 160.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -182,6 +182,20 @@
         <url-pattern>/AddCabServlet</url-pattern>
     </servlet-mapping>
 
+
+    <servlet>
+        <servlet-name>EditCabServlet</servlet-name>
+        <servlet-class>EditCabServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <http-method>GET</http-method>
+        <servlet-name>EditCabServlet</servlet-name>
+        <url-pattern>/EditCabServlet</url-pattern>
+    </servlet-mapping>
+
+
     <servlet>
         <servlet-name>RemoveCabServlet</servlet-name>
         <servlet-class>RemoveCabServlet</servlet-class>
@@ -194,15 +208,26 @@
         <url-pattern>/RemoveCabServlet</url-pattern>
     </servlet-mapping>
 
-        <servlet>
-        <servlet-name>EditCabServlet</servlet-name>
-        <servlet-class>EditCabServlet</servlet-class>
+    <servlet>
+        <servlet-name>RemoveDriverServlet</servlet-name>
+        <servlet-class>RemoveDriverServlet</servlet-class>
     </servlet>
 
+    <servlet-mapping>
+        <http-method>POST</http-method>
+        <servlet-name>RemoveDriverServlet</servlet-name>
+        <url-pattern>/RemoveDriverServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RemoveEmpServlet</servlet-name>
+        <servlet-class>RemoveEmpServlet</servlet-class>
+    </servlet>
 
     <servlet-mapping>
-        <http-method>GET</http-method>
-        <servlet-name>EditCabServlet</servlet-name>
-        <url-pattern>/EditCabServlet</url-pattern>
+        <http-method>POST</http-method>
+        <servlet-name>RemoveEmpServlet</servlet-name>
+        <url-pattern>/RemoveEmpServlet</url-pattern>
     </servlet-mapping>
+
 </web-app>

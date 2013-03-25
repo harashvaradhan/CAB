@@ -17,15 +17,16 @@ public class ViewDriverServlet extends HttpServlet {
 
 		ResultSet rs=st.executeQuery("SELECT * FROM driver");
 		out.println("<table border='1' class='table'>");
-		out.println("<th>ID</th><th>First Name</th><th>Last Name</th><th>Mobile</th><th>Address</th>");
+		out.println("<th>ID</th><th>First Name</th><th>Last Name</th><th>Mobile</th><th>Address</th><th>Status</th>");
 			while(rs.next()){
 				// D_FNAME D_LNAME D_ID MOBILE C_ID ADDRESS DOJ STATUS 
 				String id=rs.getString("D_ID");
 				String fname=rs.getString("D_FNAME");
 				String lname=rs.getString("D_LNAME");
 				String mobile=rs.getString("MOBILE");
-				String address=rs.getString("ADDRESS");;
-				out.println("<tr><td>"+id+"</td><td>"+fname+"</td><td>"+lname+"</td><td>"+mobile+"</td><td>"+address+"</td></tr>");
+				String address=rs.getString("ADDRESS");
+				String status=rs.getString("STATUS");
+				out.println("<tr><td>"+id+"</td><td>"+fname+"</td><td>"+lname+"</td><td>"+mobile+"</td><td>"+address+"</td><td>"+status+"</td></tr>");
 		}
 		out.println("</table>");
 		rs.close();

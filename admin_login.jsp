@@ -3,13 +3,13 @@
 
 <form class='form-login' action='admin_login' method='POST'>
 	<ul>
-		<li><h2>Admin Login Here,</h2></li>
+		<li><h2>CMS Admin Login</h2></li>
 		<li>
 			<label>Username</label>
 			<input type='text' name='username'>
 		</li>
 		<li>
-			<label>Password</label>
+			<label>Password&nbsp;</label>
 			<input type='password' name='password'>
 		</li>
 		<li>

@@ -1,17 +1,11 @@
 <%@ include file="header.jsp" %>
-<%@ include file="./html/tadmin_navigation.html" %>
-<!-- 	<% String cat=(String)request.getAttribute("message");
+<div class='menu'><ul><li><a>Error Page</a></li></ul></div>
+ 	<% String cat=(String)request.getAttribute("message");
 	if(cat!=null)
 	{ %>
 		<label><%=cat%> </label>
 	<%
 	}
-	%> -->
-	<%
-	String strError = (String) session.getAttribute("error");
-	out.print(strError);
-/*	if (strExpired.equals("Expired")){
-	out.print("alert('Password expired, please update your password..');");
-	}*/
 	%>
+	<button onCLick="history.back()">Back</button>
 <%@ include file="footer.jsp" %>
