@@ -366,9 +366,9 @@ $(document).ready(function () {
 				});
 			});
 		}
-		if ($(this).attr('href')=='#newroster') {
-			console.log('new roster');
-			$('#operation').load('./html/add_Roster.html');
+		if ($(this).attr('href')=='#createroster') {
+			console.log('createroster');
+			$('#operation').load('./html/create_Roster.html');
 		}
 		if ($(this).attr('href')=='#editroster') {
 			console.log('editroster');
